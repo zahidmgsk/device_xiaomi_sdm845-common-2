@@ -1,1 +1,4 @@
 binder_call(system_server, glgps)
+
+# Notch
+get_prop(system_server, vendor_display_notch_prop)
