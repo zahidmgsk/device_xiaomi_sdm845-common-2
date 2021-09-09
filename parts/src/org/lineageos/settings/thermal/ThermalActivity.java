@@ -17,10 +17,10 @@
 package org.lineageos.settings.thermal;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 import android.view.MenuItem;
 
-public class ThermalActivity extends PreferenceActivity {
+public class ThermalActivity extends MonetPreferenceActivity {
 
     private static final String TAG_THERMAL = "thermal";
 
