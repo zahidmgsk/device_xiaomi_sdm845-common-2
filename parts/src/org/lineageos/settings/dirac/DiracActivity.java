@@ -17,9 +17,9 @@
 package org.lineageos.settings.dirac;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import android.preference.PreferenceActivity;
 
-public class DiracActivity extends MonetPreferenceActivity {
+public class DiracActivity extends PreferenceActivity {
 
     private static final String TAG_DIRAC = "dirac";
 
