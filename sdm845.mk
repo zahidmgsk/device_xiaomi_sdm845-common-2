@@ -368,6 +368,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-service \
     vr.sdm845
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
